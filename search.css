@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    /* overflow: hidden; */
+}
+
+a{
+    text-decoration: none;
+    color: unset;
+}
+a:hover{
+    color: #3ac6e1 !important;
+}
+.customer{
+    background-color: #3ac6e1 !important; 
+    color: white;
+    border: none;
+}
+button b{
+    color: white;
+    
+}
+.bill1{
+    border: 0px solid #3ac6e1;
+    width: 30%;
+    height: 130px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 10px;
+}
+.bill1 input{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    font-size: 30px;
+    border: none;
+}
+.bill1 label{
+    width: 100% ;
+   text-align: center;
+}
+.date_area{
+    border: 0px solid red;
+    text-align: center;
+    position: relative;
+}
+.date_area .date_first input{
+    font-size: 13px;
+    border: 0px solid black;
+    height: 30px;
+    width: 95%;
+    padding: 2px;
+}
+.date_area .date_second  input{
+    font-size: 13px;
+    border: 0px solid black;
+    height: 30px;
+    width: 95%;
+}
+.alldata{
+    border: 0px solid red;
+    padding-top: 30px;
+}
